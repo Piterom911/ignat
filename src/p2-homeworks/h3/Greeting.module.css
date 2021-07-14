@@ -1,0 +1,21 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.errorText {
+    color: #731cc2;
+    font-weight: 700;
+}
+
+.greetingCount {
+    margin-left: 20px;
+    color: white;
+}
+
+.input {
+    width: 300px;
+}

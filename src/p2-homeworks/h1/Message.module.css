@@ -1,0 +1,55 @@
+.Message {
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper {
+    background-color: #313125;
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    position: relative;
+    z-index: 3;
+    padding: 10px 20px;
+    max-width: 300px;
+}
+
+.wrapper::after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle at 0 0, transparent 30px, #313125 0);
+    left: -30px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #313125;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.name {
+    margin: 0;
+    font-size: 18px;
+    color: #d8befc;
+}
+
+.text {
+    opacity: .8;
+    font-size: 16px;
+}
+
+.time {
+    opacity: .2;
+    margin-left: 20px;
+    margin-top: 5px;
+    float: right;
+}
+
+.data {
+}
