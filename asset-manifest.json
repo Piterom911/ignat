@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Piterom911/ignat/static/css/main.bda1a7e6.chunk.css",
+    "main.js": "/Piterom911/ignat/static/js/main.e3246870.chunk.js",
+    "main.js.map": "/Piterom911/ignat/static/js/main.e3246870.chunk.js.map",
+    "runtime-main.js": "/Piterom911/ignat/static/js/runtime-main.00b92667.js",
+    "runtime-main.js.map": "/Piterom911/ignat/static/js/runtime-main.00b92667.js.map",
+    "static/js/2.6eb92ac2.chunk.js": "/Piterom911/ignat/static/js/2.6eb92ac2.chunk.js",
+    "static/js/2.6eb92ac2.chunk.js.map": "/Piterom911/ignat/static/js/2.6eb92ac2.chunk.js.map",
+    "index.html": "/Piterom911/ignat/index.html",
+    "static/css/main.bda1a7e6.chunk.css.map": "/Piterom911/ignat/static/css/main.bda1a7e6.chunk.css.map",
+    "static/js/2.6eb92ac2.chunk.js.LICENSE.txt": "/Piterom911/ignat/static/js/2.6eb92ac2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00b92667.js",
+    "static/js/2.6eb92ac2.chunk.js",
+    "static/css/main.bda1a7e6.chunk.css",
+    "static/js/main.e3246870.chunk.js"
+  ]
+}
