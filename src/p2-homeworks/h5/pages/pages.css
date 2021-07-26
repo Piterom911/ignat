@@ -1,23 +1,25 @@
+.wrapper404 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 220px);
+    font-size: calc(100vh - 220px);
+    padding-top: 10vh;
+}
+
 .text404 {
-    font-size: 20vh;
+    font-size: 20%;
     color: white;
     text-align: center;
 }
 
-.wrapper404 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: calc(100vh - 220px);
-}
-
 .info404 {
-    font-size: 7vh;
+    font-size: 7%;
     color: white;
 }
 
 .cat404 {
-    font-size: 20vh;
+    font-size: 20%;
     color: white;
 }
