@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/github.io/ignat/static/css/main.bda1a7e6.chunk.css",
-    "main.js": "/github.io/ignat/static/js/main.c141953b.chunk.js",
-    "main.js.map": "/github.io/ignat/static/js/main.c141953b.chunk.js.map",
-    "runtime-main.js": "/github.io/ignat/static/js/runtime-main.930659a9.js",
-    "runtime-main.js.map": "/github.io/ignat/static/js/runtime-main.930659a9.js.map",
-    "static/js/2.6eb92ac2.chunk.js": "/github.io/ignat/static/js/2.6eb92ac2.chunk.js",
-    "static/js/2.6eb92ac2.chunk.js.map": "/github.io/ignat/static/js/2.6eb92ac2.chunk.js.map",
-    "index.html": "/github.io/ignat/index.html",
-    "static/css/main.bda1a7e6.chunk.css.map": "/github.io/ignat/static/css/main.bda1a7e6.chunk.css.map",
-    "static/js/2.6eb92ac2.chunk.js.LICENSE.txt": "/github.io/ignat/static/js/2.6eb92ac2.chunk.js.LICENSE.txt"
+    "main.css": "/ignat/static/css/main.bd7ee2da.chunk.css",
+    "main.js": "/ignat/static/js/main.ac38d1b6.chunk.js",
+    "main.js.map": "/ignat/static/js/main.ac38d1b6.chunk.js.map",
+    "runtime-main.js": "/ignat/static/js/runtime-main.f3cd251e.js",
+    "runtime-main.js.map": "/ignat/static/js/runtime-main.f3cd251e.js.map",
+    "static/js/2.6eb92ac2.chunk.js": "/ignat/static/js/2.6eb92ac2.chunk.js",
+    "static/js/2.6eb92ac2.chunk.js.map": "/ignat/static/js/2.6eb92ac2.chunk.js.map",
+    "index.html": "/ignat/index.html",
+    "static/css/main.bd7ee2da.chunk.css.map": "/ignat/static/css/main.bd7ee2da.chunk.css.map",
+    "static/js/2.6eb92ac2.chunk.js.LICENSE.txt": "/ignat/static/js/2.6eb92ac2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.930659a9.js",
+    "static/js/runtime-main.f3cd251e.js",
     "static/js/2.6eb92ac2.chunk.js",
-    "static/css/main.bda1a7e6.chunk.css",
-    "static/js/main.c141953b.chunk.js"
+    "static/css/main.bd7ee2da.chunk.css",
+    "static/js/main.ac38d1b6.chunk.js"
   ]
 }
