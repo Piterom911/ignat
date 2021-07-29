@@ -58,3 +58,15 @@ button:disabled:hover {
     box-shadow: none;
     transform: none;
 }
+
+.editableSpan {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.editableSpan::before {
+    content: "\270E";
+}
