@@ -8,10 +8,9 @@ function HW7() {
     const [value, onChangeOption] = useState(arr[1])
 
     return (
-        <div>
+        <div className="wrapper">
+            <h2>homework 7</h2>
             <hr/>
-            homeworks 7
-
             {/*should work (должно работать)*/}
             <div>
                 <SuperSelect

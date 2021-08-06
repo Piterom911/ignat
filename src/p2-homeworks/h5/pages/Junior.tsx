@@ -1,9 +1,8 @@
 import React from 'react'
+import HW7 from "../../h7/HW7";
 
 export function Junior() {
     return (
-        <div className="wrapper">
-            <h2>I am The Junior Section Page!</h2>
-        </div>
+        <HW7/>
     )
 }

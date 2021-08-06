@@ -70,3 +70,7 @@ button:disabled:hover {
 .editableSpan::before {
     content: "\270E";
 }
+
+input[type=radio] {
+    opacity: .8;
+}
