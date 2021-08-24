@@ -1,0 +1,67 @@
+.clock {
+    width: 120px;
+    height: 130px;
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, .3);
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0 0 5px 5px rgba(255, 255, 255, .6);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.clock::after {
+    position: absolute;
+    content: '';
+    height: 200%;
+    width: 1px;
+    opacity: .7;
+    background-color: #fff;
+    box-shadow: 0 0 20px 6px rgba(255, 255, 255, 1);
+    transform: rotate(35deg) translateX(-100px);
+    left: 0;
+    top: -50%;
+    transition: all .8s ease-in-out;
+    animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+    60% {
+        transform: rotate(35deg) translateX(-100px);
+    }
+    100% {
+        transform: rotate(55deg) translateX(200px);
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: 50px;
+    width: 100px;
+}
+
+.time {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.seconds {
+    font-size: 10px;
+}
+
+.date {
+    position: absolute;
+    color: gray;
+    font-weight: 700;
+    font-size: 20px;
+    bottom: 15px;
+}
