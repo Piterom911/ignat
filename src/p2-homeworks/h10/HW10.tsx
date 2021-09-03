@@ -12,9 +12,10 @@ function HW10() {
     };
 
     return (
-        <div>
+        <div className={'wrapper'}>
+            <h2>homework 10</h2>
             <hr/>
-            homeworks 10
+
 
             {/*should work (должно работать)*/}
             {loading

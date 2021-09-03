@@ -27,8 +27,9 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.getHours() + ' : ' + date.getMinutes() // fix with date
-    const stringDate = date.getDate() + ' ' + (+date.getMonth() + 1) + ' ' + date.getFullYear() // fix with date
+    const seconds = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds()
+    const stringTime = (+date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ' : ' + (+date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes()) // fix with date
+    const stringDate = (+date.getDate() < 10 ? '0' + date.getDate() : date.getDate()) + ' ' + ((+date.getMonth() + 1) < 10 ? '0' + (+date.getMonth() + 1) : +date.getMonth()) + ' ' + date.getFullYear() // fix with date
 
     return (
         <div className={style.wrapper}>
@@ -40,13 +41,11 @@ function Clock() {
                     {stringTime}
                 </span>
                 <span className={style.seconds}>
-                    {date.getSeconds()}
+                    {seconds}
                 </span>
-                {show && (
-                    <div className={style.date}>
-                        {stringDate}
-                    </div>
-                )}
+                <div className={style.date}>
+                    {stringDate}
+                </div>
             </div>
 
             <div className={style.buttons}>
