@@ -1,24 +1,94 @@
-import React from 'react'
-
-type SuperDoubleRangePropsType = {
-    onChangeRange?: (value: [number, number]) => void
-    value?: [number, number]
-    // min, max, step, disable, ...
-}
-
-const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
-    {
-        onChangeRange, value,
-        // min, max, step, disable, ...
-    }
-) => {
-    // сделать самому, можно подключать библиотеки
-
-    return (
-        <>
-            DoubleRange
-        </>
-    )
-}
-
-export default SuperDoubleRange
+// import React, { useCallback, useEffect, useState, useRef } from "react";
+// import PropTypes from "prop-types";
+// // import "./multiRangeSlider.css";
+//
+// type PropsTypes = {
+//     min: number
+//     max: number
+//     onChange: (min: number, max: number) => void
+// }
+//
+// const MultiRangeSlider: React.FC<PropsTypes> = ({ min, max, onChange }) => {
+//     const [minVal, setMinVal] = useState(min);
+//     const [maxVal, setMaxVal] = useState(max);
+//     const minValRef = useRef(min);
+//     const maxValRef = useRef(max);
+//     const range = useRef<HTMLDivElement>(null);
+//
+//     // Convert to percentage
+//     const getPercent = useCallback(
+//         (value) => Math.round(((value - min) / (max - min)) * 100),
+//         [min, max]
+//     );
+//
+//     // Set width of the range to decrease from the left side
+//     useEffect(() => {
+//         const minPercent = getPercent(minVal);
+//         const maxPercent = getPercent(maxValRef.current);
+//
+//         if (range.current) {
+//             range.current.style.left = `${minPercent}%`;
+//             range.current.style.width = `${maxPercent - minPercent}%`;
+//         }
+//     }, [max, min, minVal, getPercent]);
+//
+//     // Set width of the range to decrease from the right side
+//     useEffect(() => {
+//         const minPercent = getPercent(minValRef.current);
+//         const maxPercent = getPercent(maxVal);
+//
+//         if (range.current) {
+//             range.current.style.width = `${maxPercent - minPercent}%`;
+//         }
+//     }, [max, min, maxVal, getPercent]);
+//
+//     // Get min and max values when their state changes
+//     useEffect(() => {
+//         onChange(min, max);
+//     }, [min, max, onChange]);
+//
+//     return (
+//         <div className="container">
+//             <input
+//                 type="range"
+//                 min={min}
+//                 max={max}
+//                 value={minVal}
+//                 onChange={(event) => {
+//                     const value = Math.min(Number(event.target.value), maxVal - 1);
+//                     setMinVal(value);
+//                     minValRef.current = value;
+//                 }}
+//                 className="thumb thumb--left"
+//                 // style={{ zIndex: '5'}}
+//             />
+//             <input
+//                 type="range"
+//                 min={min}
+//                 max={max}
+//                 value={maxVal}
+//                 onChange={(event) => {
+//                     const value = Math.max(Number(event.target.value), minVal + 1);
+//                     setMaxVal(value);
+//                     maxValRef.current = value;
+//                 }}
+//                 className="thumb thumb--right"
+//             />
+//
+//             <div className="slider">
+//                 <div className="slider__track" />
+//                 <div ref={range} className="slider__range" />
+//                 <div className="slider__left-value">{minVal}</div>
+//                 <div className="slider__right-value">{maxVal}</div>
+//             </div>
+//         </div>
+//     );
+// };
+//
+// MultiRangeSlider.propTypes = {
+//     min: PropTypes.number.isRequired,
+//     max: PropTypes.number.isRequired,
+//     onChange: PropTypes.func.isRequired
+// };
+//
+export default 1;

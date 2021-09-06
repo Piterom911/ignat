@@ -89,3 +89,21 @@ input[type=radio] {
 .hw8_span:nth-child(even) {
     background-color: rgba(255, 255, 255, .5);
 }
+
+.rangeSliderBox {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doubleRange {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.rangeValue {
+    font-size: 20px;
+    width: 20px;
+    flex-shrink: 0;
+}

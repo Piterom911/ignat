@@ -17,7 +17,10 @@ function HW4() {
     }
 
     const [checked, setChecked] = useState<boolean>(false)
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
+    const [checked2, setChecked2] = useState<boolean>(true)
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setChecked2(e.currentTarget.checked)
+    }
 
     return (
         <div className={'wrapper'}>
@@ -59,11 +62,11 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    First Checkbox {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox checked={checked2} onChange={testOnChange}>Test Me!</SuperCheckbox>
             </div>
 
             <hr/>
