@@ -9,7 +9,7 @@ function App() {
     const theme = useSelector( (state: AppStateType) => state.theme.themeName)
     return (
         <HashRouter>
-            <div className={theme}>
+            <div className={theme + ' themeWrapper'}>
                 <div className={`${s.App}`}>
                     <h1 className={s.heading}>react homeworks:</h1>
                     <HW5/>
