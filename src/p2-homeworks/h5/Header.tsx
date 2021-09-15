@@ -6,17 +6,17 @@ function Header() {
     return (
         <nav className={s.nav}>
             <div className={s.iconWrapper}>
-                <div className={s.menuIcon}> </div>
+                <div className={s.menuIcon + ' menuIcon'}> </div>
             </div>
             <ul className={s.list}>
                 <li className={s.item}>
-                    <NavLink activeClassName={s.active} className={s.link} to='/pre-junior'>Pre Junior Level</NavLink>
+                    <NavLink activeClassName={s.active + ' navLinkActive'} className={s.link + ' navLink'} to='/pre-junior'>Pre Junior Level</NavLink>
                 </li>
                 <li className={s.item}>
-                    <NavLink activeClassName={s.active} className={s.link} to='/junior'>Junior Level</NavLink>
+                    <NavLink activeClassName={s.active + ' navLinkActive'} className={s.link + ' navLink'} to='/junior'>Junior Level</NavLink>
                 </li>
                 <li className={s.item}>
-                    <NavLink activeClassName={s.active} className={s.link} to='/junior-plus'>Junior Plus Level</NavLink>
+                    <NavLink activeClassName={s.active + ' navLinkActive'} className={s.link + ' navLink'} to='/junior-plus'>Junior Plus Level</NavLink>
                 </li>
             </ul>
         </nav>

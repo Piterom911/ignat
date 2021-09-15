@@ -1,14 +1,25 @@
 const initState = {
-
+    themeName: 'Royal'
 };
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
+type InitialStateType = {
+    themeName: string
+}
+
+export const themeReducer = (state = initState, action: RootActionType): InitialStateType => {
     switch (action.type) {
-        case "": {
-            return state;
+        case "CHANGE-THEME": {
+            return { themeName: action.themeName};
         }
-        default: return state;
+        default:
+            return state;
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+type RootActionType = ChangeThemeType
+
+type ChangeThemeType = { type: 'CHANGE-THEME', themeName: string }
+
+export const changeThemeAC = (themeName: string): ChangeThemeType => {
+    return { type: 'CHANGE-THEME', themeName }
+};

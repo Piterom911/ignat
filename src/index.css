@@ -7,6 +7,78 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.PurpleBliss {
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.PurpleBliss h2 {
+    color: #005578;
+}
+.PurpleBliss hr {
+    border-color: white;
+    border-top-color: transparent;
+}
+
+.Amin {
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Amin h2 {
+    color: #c16019;
+}
+.Amin hr {
+    border-color: #659999;
+}
+
+.Clouds {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Clouds h2 {
+    color: #fff;
+}
+.Clouds h1 {
+    color: #7a8585;
+}
+.Clouds hr {
+    border-color: #ccc;
+}
+.Clouds .wrapper {
+    background-color: #7a8585;
+    color: white;
+}
+.Clouds .navLink {
+    background-color: #7a8585;
+}
+.Clouds .navLink:hover {
+    color: #7a8585;
+}
+.Clouds .navLinkActive {
+    color: #7a8585;
+    background-color: white;
+}
+.Clouds .menuIcon::before,
+.Clouds .menuIcon::after,
+.Clouds .menuIcon {
+    background-color: #7a8585;
+}
+
+.Royal {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Royal h2 {
+    color: #131a28;
+}
+
+hr {
+    border-style: solid;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -20,8 +92,11 @@ code {
     margin-bottom: 30px;
 }
 
+.wrapper:last-child {
+    margin-bottom: 0;
+}
+
 h2 {
-    color: #005578;
     text-transform: uppercase;
     padding-bottom: 10px;
 }

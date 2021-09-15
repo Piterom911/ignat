@@ -9,7 +9,7 @@ function HW11() {
     const [value2, setValue2] = useState(100)
 
     const onSuperRangeChange = (value: number) => {
-        const valueIn = Math.min(Number(value), value2 - 1);
+        const valueIn = Math.min(Number(value), value2);
         setValue1(valueIn)
     }
     const onSuperDoubleRangeChange = (value: number[]) => {
