@@ -1,9 +1,10 @@
 import React from "react";
+import HW13 from "../../h13/HW13";
 
 export function JuniorPlus() {
     return (
-        <div className="wrapper">
-            <h2>Junior Plus Level Section!</h2>
-        </div>
+        <>
+            <HW13/>
+        </>
     )
 }

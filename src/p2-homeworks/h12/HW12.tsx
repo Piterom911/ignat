@@ -1,6 +1,5 @@
-import React, {ChangeEvent, ChangeEventHandler} from "react";
+import React, {ChangeEvent} from "react";
 import s from "./HW12.module.css";
-import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStateType} from "../h10/bll/store";

@@ -1,5 +1,4 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react'
-import { v1 } from 'uuid';
 import Greeting from './Greeting'
 import {UserType} from "./HW3";
 

@@ -22,6 +22,7 @@ function Clock() {
 
     const onMouseEnter = () => {
         setShow(true)
+        !show && console.log('Watch hover')
     }
     const onMouseLeave = () => {
         setShow(false)

@@ -1,5 +1,5 @@
 import Slider from 'rc-slider/lib/Slider'
-import React, {ChangeEvent, useState} from 'react'
+import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import 'rc-slider/assets/index.css';
 import {Range} from "rc-slider";

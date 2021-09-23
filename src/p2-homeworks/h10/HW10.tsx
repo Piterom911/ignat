@@ -1,7 +1,7 @@
 import React from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
-import {loadingAC, loadingReducer} from "./bll/loadingReducer";
+import {loadingAC} from "./bll/loadingReducer";
 import {AppStateType} from "./bll/store";
 import PreloaderStar from "./PreloaderStar";
 
